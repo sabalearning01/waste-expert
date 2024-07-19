@@ -1,0 +1,277 @@
+.foster{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 65px;
+    margin-top: 62px;
+}
+
+.lside h2{
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 67.2px;
+    text-align: justified;
+    color: #028C32;
+
+
+}
+
+ .lside img{
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+} 
+
+.lside p {
+    font-family: Mulish;
+    font-size: 1.063rem;
+    font-weight: 400;
+    line-height: 23.8px;
+    text-align: justified;
+    color:#666666;
+    margin-top: 50px; 
+    width:439px;
+    
+    
+}
+
+ .btnflex1{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    gap:39px;
+    margin-top: 84px;
+
+} 
+
+
+
+
+
+ .pri-cta1{
+    background-color: #028C32;
+    border: none;
+    padding: 20px 25px;
+    box-shadow: 0px 2px 7px 0px #0000003B;
+    width:200px;
+    border-radius: 6px;
+}
+
+.pri-cta1 a{
+    font-family: Mulish;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 25.2px;
+    letter-spacing: -0.01em;
+    text-align: justified;
+    text-decoration: none;
+    color:white;
+} 
+
+.sec-cta1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    border:none;
+    padding: 15px 25px;
+    background-color: #000000;
+    border-radius: 6px;
+    color:white;
+}
+
+.sec-cta1 a {
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    padding-top: 4px;
+    color: white;
+
+}
+
+.motherhood{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 65px;
+    margin-right: 100px;
+    gap:108px;
+    margin-top: 146px;
+}
+
+
+
+
+
+
+.dropoff h2 {
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 67.2px;
+    text-align: justified;
+    color: #028C32;
+}
+
+.dropoff p{
+    font-family: Mulish;
+    font-size: 1.063rem;
+    font-weight: 400;
+    line-height: 23.8px;
+    text-align: justified;
+    color:#666666;
+    /* width:531px;
+    height: 283px; */
+
+}
+
+
+
+.btnflex2{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    gap:39px;
+    margin-top: 80px; 
+
+} 
+
+.pri-cta2{
+    background-color: #028C32;
+    border: none;
+    padding: 20px 25px;
+    box-shadow: 0px 2px 7px 0px #0000003B;
+    width:200px;
+    border-radius: 6px;
+}
+
+.pri-cta2 a{
+    font-family: Mulish;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 25.2px;
+    letter-spacing: -0.01em;
+    text-align: justified;
+    text-decoration: none;
+    color:white;
+} 
+
+.sec-cta2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    border:none;
+    padding: 15px 25px;
+    background-color: #000000;
+    border-radius: 6px;
+    color:white;
+}
+
+.sec-cta2 a {
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    padding-top: 4px;
+    color: white;
+
+}
+
+
+.new{
+    position: absolute;
+    width:100%;
+    object-fit: contain;
+    height: auto;
+    top:1600px;
+    z-index: -1;
+    
+}
+
+.Other h1{
+    text-align: center;
+    margin-top: 146px;
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 67.2px;
+    text-align: justified;
+    color: #028C32;
+
+}
+
+
+.Other img{
+    margin-left: 43%;
+    margin-right: 45%;
+    margin-bottom: 20px;
+}
+
+.boxcontainers{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 235px;
+    padding-right: 235px; */
+    gap:49px; 
+  
+}
+
+.containers{
+    width: 350px;
+    height: 450px; 
+    background-color: white;
+    border-radius: 8px;
+     
+}
+.containers img{
+    padding-top: 20px;
+     display: block;
+     justify-content: center;
+     align-items: center;
+     margin: 0 auto;
+     margin-top: 20px;
+}
+
+.containers h4{
+    font-family: Mulish;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30.8px;
+    text-align: center;
+    color:#028C32;
+    margin-top: 24px;
+    padding-left: 77px;
+    padding-right: 77px;
+    /* width:206px; */
+
+}
+
+.containers p{
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px; 
+    text-align: justify;
+    padding-left: 27px;
+    padding-right: 27px;
+     /* width:306px;  */
+     margin-top: 23px;
+
+
+}
+
+.getcta{
+    padding: 10px 30px;
+    background-color: #028C32;
+    color:white;
+    border:none;
+    border-radius: 6px;
+    margin-left: 30%;
+     margin-top: 41px; 
+}

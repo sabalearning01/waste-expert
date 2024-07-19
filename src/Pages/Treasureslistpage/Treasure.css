@@ -1,0 +1,101 @@
+.moda{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ltf{
+    margin-left: 60px;
+}
+
+.ltf h2{
+    font-family: Inter;
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 92.42px;
+    text-align: left;
+    color: #029735;
+
+}
+
+.ltf p{
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: justified;
+    margin-top: 38px;
+
+}
+
+.rty{
+    margin-top: 48px;
+}
+
+.treasure{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44.01px;
+    text-align: center;
+    color: #029735;
+    margin-top: 77px;
+
+}
+
+.boxcontainer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    margin-left: 104px;
+    margin-right: 104px;
+    margin-top: 114px;
+}
+
+.container1{
+    width: 286px;
+    height:434px;
+    background: #08BD46B2;
+    opacity:70px;
+    padding-top: 118px;
+    border-radius: 8px;
+    border: 1.5px
+}
+
+.container1 h2{
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 42.01px;
+    text-align: center;
+    color:white;
+    padding-bottom: 42px;
+
+}
+
+.container1 h5{
+    font-family: Mulish;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24.21px;
+    text-align: center;
+    color:white;
+     /* padding-top: 37px;  */
+
+}
+
+
+.container1 img{
+    display:block;
+    /* justify-content: center;
+    align-items: center; */
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    padding-left: 8px;
+    padding-right: 8px;
+    /* padding-bottom:90px ; */
+
+}
