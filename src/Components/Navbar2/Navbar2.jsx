@@ -21,7 +21,8 @@ const Navbar2 = () => {
 
     <div className='navbutton'>
         <Link to='/about'>About Us</Link>
-        <a href="#">Services</a>
+        <Link to='/services'>Services</Link>
+        {/* <a href="#">Services</a> */}
         <a href="#">Contact Us</a>
         <a href="#">FAQ</a>
         <button className="pribtn">Login</button>
