@@ -13,12 +13,13 @@ import bin from '../../Images/bin.png'
 import AboutG from '../../Images/AboutG.png'
 import our from '../../Images/our.png'
 import Footer from '../../Components/Footer/Footer'
+import Navbar2 from '../../Components/Navbar2/Navbar2'
 
 
  const About = () => {
   return (
     <div className='main'>
-      <Navbar/>
+      <Navbar2 />
       
 
       
