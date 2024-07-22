@@ -6,14 +6,14 @@
     margin-top: 62px;
 }
 
-.lside h2{
+.pick{
     font-family: Inter;
     font-size: 3rem;
     font-weight: 700;
     line-height: 67.2px;
     text-align: justified;
     color: #028C32;
-
+    margin-right: 350px;
 
 }
 
@@ -31,17 +31,19 @@
     text-align: justified;
     color:#666666;
     margin-top: 50px; 
-    width:439px;
+    width:531px;
+    
     
     
 }
 
  .btnflex1{
     display:flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center; 
     gap:39px;
     margin-top: 84px;
+    margin-right: 1px;
 
 } 
 
@@ -107,13 +109,16 @@
 
 
 
-.dropoff h2 {
+.dropofftext {
     font-family: Inter;
     font-size: 3rem;
     font-weight: 700;
     line-height: 67.2px;
     text-align: justified;
     color: #028C32;
+    /* margin-right: 240px;  */
+    padding-right: 330px;
+   
 }
 
 .dropoff p{
@@ -123,8 +128,9 @@
     line-height: 23.8px;
     text-align: justified;
     color:#666666;
-    /* width:531px;
-    height: 283px; */
+    width:531px; 
+   height: 283px;
+    padding-top: 30px;
 
 }
 
@@ -136,6 +142,7 @@
     align-items: center; 
     gap:39px;
     margin-top: 80px; 
+    padding-right: 85px;
 
 } 
 
@@ -191,6 +198,10 @@
     top:1600px;
     z-index: -1;
     
+}
+
+.Other{
+    padding-top: 90px;
 }
 
 .Other h1{

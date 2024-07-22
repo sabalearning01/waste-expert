@@ -9,6 +9,7 @@ import Flippage from './Pages/Flippage/Flippage'
 import Footer from './Components/Footer/Footer'
 import Accordion from './Components/Accordion/Accordion'
 import Seemorebtn from './Components/Seemorebtn/Seemorebtn'
+import Api from './Pages/API/Api'
 
 
 
@@ -42,7 +43,7 @@ function App() {
             <Route path="treasure" element={<Treasure/>}/> 
             <Route path="services" element={<Services/>}/> 
             <Route path="flippage" element={<Flippage/>}/> 
-            
+            <Route path="api" element={<Api/>}/>
           </Routes>  
         {/* </main> */}
         </BrowserRouter>

@@ -3,48 +3,51 @@
     justify-content: space-between;
     align-items: center;
     margin-left: 70px;
-    margin-top: 123px;
-}
+     margin-top: 13px;
+     
+    }
 
 .fty{
     margin-bottom: 60px;
 }
-.fty h2{
+.flipping{
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
     line-height: 67.2px;
     text-align: justified;
-    color: #028C32;    
+    color: #028C32;   
+    margin-right: 400px; 
 }
 
 .cool{
     font-family: Mulish;
-font-size: 18px;
-font-weight: 400;
-line-height: 25.2px;
-text-align: justified;
-width: 395px;
-height: 50px;
-color: #00000073;
-opacity: 45%;
-
-
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: justified;
+    width: 395px;
+    height: 50px;
+    color: #00000073;
+    opacity: 45%;
+    margin-top: 35.2px;
 }
-.fty p{
+.lorem{
 font-family: Mulish;
 font-size: 17px;
 font-weight: 400;
 line-height: 23.8px;
 text-align: justified;
 width:531px;
+margin-top: 21px;
 }
 
 .hty img{
      object-fit: contain; 
      max-width: 100%;
      height:auto;
- 
+    /* width:860px;
+    height: 469px; */
 }
 
 .greenbg{
@@ -63,4 +66,16 @@ width:531px;
     text-align: center;
     color:#028C32;
     margin-top: 18px;
+}
+
+.grand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+button{
+    padding:20px 30px;
+    background-color: black;
 }
