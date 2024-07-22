@@ -58,7 +58,7 @@
     height:434px;
     background: #08BD46B2;
     opacity:70px;
-    padding-top: 118px;
+     /* padding-top: 118px;  */
     border-radius: 8px;
     border: 1.5px
 }
@@ -70,7 +70,8 @@
     line-height: 42.01px;
     text-align: center;
     color:white;
-    padding-bottom: 42px;
+    /* padding-bottom: 62px; */
+    margin-top: 30px;
 
 }
 
@@ -81,7 +82,7 @@
     line-height: 24.21px;
     text-align: center;
     color:white;
-     /* padding-top: 37px;  */
+     padding-top: 37px; 
 
 }
 
@@ -96,6 +97,55 @@
     object-fit: contain;
     padding-left: 8px;
     padding-right: 8px;
-    /* padding-bottom:90px ; */
+     padding-bottom:40px ;
+     margin-top: 40px;
+
+}
+
+.recycle{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+   line-height: 56.01px;
+   text-align: center;
+   color:#029735;
+   margin-top: 128px;
+
+}
+
+
+
+
+.contable{
+    width:1144px;
+    height:118px;
+    background-color: #028c32;
+/* opacity: 25%; */
+    border-radius: 9px;
+    border: 2px solid #028C32;
+    color:white;
+    padding-left: 20px;
+   
+}
+
+.trow{
+    margin-left: 30px;
+}
+
+.points{
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 37.2px;
+    letter-spacing: -0.01em;
+   text-align: center;
+    color: #028C32;
+    margin-top: 144px;
+    width:918px;
+    height:65px;
+    opacity: 75%;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 56px;
 
 }

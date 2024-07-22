@@ -1,6 +1,6 @@
 import React from 'react'
 import './TreasureTable.css'
-// import { TableContainer,Table, TableHead,TableBody,TableRow,TableCell, Paper } from '@mui/material'
+import { TableContainer,Table, TableHead,TableBody,TableRow,TableCell, Paper } from '@mui/material'
 import Navbar2 from '../Navbar2/Navbar2'
 import Table from 'react-bootstrap/Table';
 

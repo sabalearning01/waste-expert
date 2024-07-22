@@ -81,11 +81,11 @@ const seeMore = ()=>{
          <button className='pri-cta'><a href="#">Get Started</a></button>
           <button onClick={handlePlay} className='sec-cta'><img  className="playic" src= {play} alt="Playicon" /><a>Press Play</a></button> 
          </div>
-        [ {showVideo && <div onClick={() => setShowVideo(false)}>
-            <video   width="100%" height="100%" className='video' ref={videoRef}>
+        {/* [ {showVideo && <div onClick={() => setShowVideo(false)}>
+            <video   width="50%" height="50%" className='video' ref={videoRef}>
             <source src = '/Videos/waste.mp4'/>
              </video>
-         </div>}]
+         </div>}] */}
           </div>
 
           <div className='right-col'>
