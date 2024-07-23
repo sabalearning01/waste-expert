@@ -3,10 +3,17 @@ import { useEffect, useState } from 'react'
 import'./Api.css'
 import axios from 'axios'
 import { json } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 const Api = () => {
     
      const [data, setData] = useState([])
+     const [inputValue, setInputValue] = useState('')
+
+     const handleInputChange = (event)=>{
+           setInputValue(event.target.value)
+           console.log(inputValue)
+     };
 
 
      useEffect(()=>{
@@ -15,6 +22,7 @@ const Api = () => {
         console.log(response)
            setData(response.data)
       });
+    
 
      },[]);
      
@@ -25,6 +33,10 @@ const Api = () => {
   return (
     <div>
          <h1>3rd Challenge Data</h1> 
+        
+        <input type = 'text'  value={inputValue} onChange={handleInputChange}/>
+        <p>Current Input Value:{inputValue}</p>
+
          {data.map((data)=>{
           return (
             
