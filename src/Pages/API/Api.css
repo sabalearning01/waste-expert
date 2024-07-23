@@ -1,7 +1,14 @@
-.cta{
-    padding: 15px 20px;
-   background-color:#028C32;
-   color:white;
-   border:none;
-   border-radius: 6px;
+h1{
+   font-family: mulish;
+   font-size: 3rem;
+   color:#028C32;
+   text-align: center;
+   padding-top: 20px;
 }
+
+/* .data-card{
+   width:200px;
+   height: 200px;
+   background-color: rgb(167, 96, 237);
+  
+} */

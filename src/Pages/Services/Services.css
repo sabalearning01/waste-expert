@@ -196,10 +196,9 @@
     z-index: -1;
     
 }
-/* 
-.Other{
-    padding-top: 90px;
-} */
+
+
+
 
 .Other h1{
     text-align: center;
@@ -281,5 +280,5 @@
     border:none;
     border-radius: 6px;
     margin-left: 30%;
-     margin-top: 41px; 
+    margin-top: 41px; 
 }

@@ -6,27 +6,43 @@ import { json } from 'react-router-dom'
 
 const Api = () => {
     
- function fetchApi (){
+     const [data, setData] = useState([])
 
-     const [data, setapiData] = useState(null)
 
-     fetch('https://jsonplaceholder.typicode.com/posts')
-     .then((response)=> response.json())
-     .then ((json) =>{
-      console.log(json);
-      setapiData(json);
-     });
- 
-    }
+     useEffect(()=>{
+      axios.get('https://jsonplaceholder.typicode.com/posts/')
+      .then((response) => {
+        console.log(response)
+           setData(response.data)
+      });
+
+     },[]);
+     
+    //  if (!post) return null;
+    
     
         
   return (
     <div>
-
-        <button className='cta' onClick={fetchApi}>Click Now</button>
-       <pre> {JSON.stringify(data, null, 2)}</pre>
+         <h1>3rd Challenge Data</h1> 
+         {data.map((data)=>{
+          return (
+            
+           <div className='data-card' key={data.id}>
+            
+            <h3 className="data-title">{data.title}</h3>
+             <p className="data-body">{data.body}</p>
+             <p className='data-comment'>{data.comment}</p>
+             <div className="button">
+                <div className="delete-btn">Delete</div>
+             </div>
+          </div>
+          );
+          })}
     </div>
   )
+  
 }
+
 
 export default Api
