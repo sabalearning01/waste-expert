@@ -65,7 +65,7 @@ import Navbar2 from '../../Components/Navbar2/Navbar2'
       </div>
     </div>
 
-    <div className='cont'>
+    <div className='cont'> 
       <img src = {recyclebin1} alt="recyclebin"/>
       <p>If you care about the environment and how it will affect mankind,
       then recycling shoudn’t take a second thought.</p>

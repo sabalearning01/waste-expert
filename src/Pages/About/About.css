@@ -48,6 +48,14 @@
 
 }
 
+.right{
+    width: 100%;
+}
+
+.right img{
+    max-width: 100%;
+}
+
 
 .right{
     margin-top: 70px;
@@ -68,7 +76,7 @@
     justify-content: space-between;
     align-items: center;
     gap:34px;
-     padding-bottom: 90px; 
+     /* padding-bottom: 90px;  */
 
 }
 
@@ -88,8 +96,9 @@
     letter-spacing: -0.01em;
     text-align: justified;
     color:#028C32;
-    padding-right: 250px; 
-    width:544px;
+    /* padding-right: 250px;  */
+    /* width:544px; */
+    margin-right: 170px;
 
 }
 
@@ -158,9 +167,13 @@
 }
 
 .rightimg1{
+    width: 100%;
     margin-top: 90px;
 }
 
+.rightimg1 img{
+    width:100%;
+}
 
 .cont{
     display:flex;
@@ -171,6 +184,8 @@
     margin-top: 155px;
     gap:59px;
 }
+
+
 
 
 .cont p {
