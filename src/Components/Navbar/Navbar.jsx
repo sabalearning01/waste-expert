@@ -20,9 +20,9 @@ const Navbar = () => {
             <div className='navbutton'>
               <ul>
               <Link to='/about'><li>About Us</li></Link>
-                <a href="#">Services</a>
-                <a href="#">Contact Us</a>
-                <a href="#">FAQ</a>
+                <Link to='/services'><li>Services</li></Link>
+                <Link to='/contact us'><li>Contact Us</li></Link>
+                <Link to="/faq"><li>FAQ</li>FAQ</Link>
                 <button className="pribtn">Dashboard</button>
                 </ul>
                 </div>
