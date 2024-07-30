@@ -14,6 +14,7 @@ import Navbar2 from './Components/Navbar2/Navbar2'
 import Hamburger from './Images/Hamburger.png'
 import Newuser from './Pages/Newuser/Newuser'
 import Resetpassword from './Pages/Resetpassword/Resetpassword'
+import Forgotpassword from './Pages/Forgotpassword/Forgotpassword'
 
 
 
@@ -50,6 +51,7 @@ function App() {
             <Route path="api" element={<Api/>}/>
             <Route path = "newuser" element={<Newuser/>}/>
             <Route path="resetpassword" element={<Resetpassword/>}/>
+            <Route path="forgotpassword" element={<Forgotpassword/>}/>
           </Routes>   
         {/* </main> */}
         </BrowserRouter>
