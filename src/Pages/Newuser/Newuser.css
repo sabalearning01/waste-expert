@@ -43,7 +43,7 @@ label{
 }
 
 
-.form-control p{
+.fgt{
     margin-top: 13px;
     font-family: Mulish;
     font-size: 18px;
@@ -59,7 +59,7 @@ label{
     color:#028C32;
 }
 
-button{
+.submitted{
     display: block;
     width:478px;
     background-color: #028C32;
