@@ -41,6 +41,10 @@
 
 }
 
+.hamburger img {
+    display: none;
+}
+
 
 .logo{
     width:72px;
@@ -73,6 +77,8 @@
 
 }
 
+
+
 .pribtn{
     border:none;
     border-radius: 6px;
@@ -85,3 +91,33 @@
     
     /* height:55px; */
 }
+
+
+@media only screen and (max-width: 768px) {
+
+    .logofront{
+         display:flex;
+         justify-content:space-between;
+         align-items: center;     
+     }
+    
+
+     .hamburger img{
+        display:block;
+     }
+
+
+     .navbutton a{
+        display:none;
+     }
+
+     .navbutton .pribtn{
+        display:none;
+     }
+
+     .flexlogotext h4{
+        display:none;
+     }
+    
+    
+    }

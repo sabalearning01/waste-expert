@@ -2,8 +2,13 @@ import React from 'react'
 import './Navbar2.css'
 import logo  from '../../Images/logo.png'
 import { Link } from 'react-router-dom'
+import Hamburger from '../../Images/Hamburger.png'
 
 const Navbar2 = () => {
+ 
+
+
+
   return (
     <div>
         <div className='mainnav'>
@@ -27,6 +32,11 @@ const Navbar2 = () => {
         <a href="#">FAQ</a>
         <button className="pribtn">Login</button>
         </div>
+
+
+                           <div className='hamburger'> 
+                  <img src={Hamburger} />
+                </div> 
 </div>
     </div>
     </div>

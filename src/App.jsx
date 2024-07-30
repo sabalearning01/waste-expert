@@ -10,6 +10,8 @@ import Footer from './Components/Footer/Footer'
 import Accordion from './Components/Accordion/Accordion'
 import Seemorebtn from './Components/Seemorebtn/Seemorebtn'
 import Api from './Pages/API/Api'
+import Navbar2 from './Components/Navbar2/Navbar2'
+import Hamburger from './Images/Hamburger.png'
 
 
 
@@ -33,9 +35,10 @@ function App() {
         {/* <main> */}
            {/* <Footer />    */}
              {/* <Accordion/> */}
-            {/* <Navbar2/>  */}
+              {/* <Navbar2/>  */}
+            {/* <Navbar/> */}
               {/* <Seemorebtn/>   */}
-          
+       
             <Routes>
             <Route index element={<Home/>}/>
             <Route path="about" element={<About/>}/>
@@ -44,7 +47,7 @@ function App() {
             <Route path="services" element={<Services/>}/> 
             <Route path="flippage" element={<Flippage/>}/> 
             <Route path="api" element={<Api/>}/>
-          </Routes>  
+          </Routes>   
         {/* </main> */}
         </BrowserRouter>
   )

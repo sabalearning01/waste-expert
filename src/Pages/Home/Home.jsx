@@ -27,6 +27,8 @@ import crushedbottles from '../../Images/crushedbottles.png'
 import Accordion from '../../Components/Accordion/Accordion'
 import Navbar2 from '../../Components/Navbar2/Navbar2'
 import { useNavigate } from 'react-router-dom'
+import guymanmobile from '../../Images/guymanmobile.png'
+import Recyclingmobile from '../../Images/Recyclingmobile.png' 
 
 
 
@@ -71,6 +73,7 @@ const seeMore = ()=>{
         <Navbar2/>
 
         <img  className="bgimg" src={GCR} alt="backgroundimage" />  
+        {/* <img className='bgimgmobile' src ={Recyclingmobile} alt="background"/> */}
 
         <div className='Hero-section'>
           
@@ -92,12 +95,25 @@ const seeMore = ()=>{
             <img className="guyimage" src = {guy2} alt="a-man-image"/>
           </div>
 
+          {/* <img className='guymobile' src={guymanmobile} alt="manmobile"/> */}
+             
          </div> 
 
          {/* End of Hero section */}
 
     <div className='section2'>
          <div className='greenrec'> </div>
+         <h3 className='wastep'>Waste to Wealth <br/>
+         just got better</h3>
+
+         <p className='thewaste'>The Waste to Wealth Mission brings scientific<br/> processing of waste to the forefront to build a<br/> zero landfill  and zero waste nation.</p>
+
+        <div className='btnflex1'>
+         <button className='pri-cta1'><a href="#">Get Started</a></button>
+          <button onClick={handlePlay} className='sec-cta1'><img  className="playic" src= {play} alt="Playicon" /><a>Press Play</a></button> 
+         </div>
+
+
 
          <div className='=logosection'>
           <div className='part'>

@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 import logo  from '../../Images/logo.png'
+import { GiHamburgerMenu } from "react-icons/gi";
+// import Hamburger from '../../Images/Hamburger.png'
 
 
 const Navbar = () => {
@@ -26,6 +28,11 @@ const Navbar = () => {
                 <button className="pribtn">Dashboard</button>
                 </ul>
                 </div>
+
+                {/* <div className='hamburger'>
+                  <img src={Hamburger}/>
+                </div>
+                 */}
         </div>
 
     </div>
