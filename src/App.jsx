@@ -12,7 +12,7 @@ import Seemorebtn from './Components/Seemorebtn/Seemorebtn'
 import Api from './Pages/API/Api'
 import Navbar2 from './Components/Navbar2/Navbar2'
 import Hamburger from './Images/Hamburger.png'
-
+import Newuser from './Pages/Newuser/Newuser'
 
 
 
@@ -47,6 +47,7 @@ function App() {
             <Route path="services" element={<Services/>}/> 
             <Route path="flippage" element={<Flippage/>}/> 
             <Route path="api" element={<Api/>}/>
+            <Route path = "newuser" element={<Newuser/>}/>
           </Routes>   
         {/* </main> */}
         </BrowserRouter>
