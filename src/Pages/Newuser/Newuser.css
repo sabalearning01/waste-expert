@@ -61,7 +61,9 @@ label{
 }
 
 
-.fgt{
+a{
+    text-decoration: none;
+    list-style: none;
     margin-top: 13px;
     font-family: Mulish;
     font-size: 18px;
@@ -69,6 +71,7 @@ label{
     line-height: 41.67px;
     letter-spacing: -0.01em;
     text-align: left;
+    color: #000000;
 
 }
 

@@ -14,10 +14,10 @@ import './Newuser.css'
     const [errors, setError] = useState({
 
     })
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
 
        function handleChange(event){
         const { name, value} = event.target;
-        console.log(handleChange)
         setFormdata({
           ...formdata, [name] : value
         })
@@ -28,7 +28,7 @@ import './Newuser.css'
         const validationErrors ={}
         if(!formdata.email.trim()){
           validationErrors.email = "email address is required"
-        }else if (/\S+@\S+\.\S+/.test(formdata.email)){
+        }else if (!emailRegex.test(formdata.email)){
             validationErrors.email = "email address is not valid"
         }
 
@@ -41,8 +41,8 @@ import './Newuser.css'
 
         setError(validationErrors)
 
-        if (Object.keys(validationErrors). length===0){
-          alert("Form Submitted Successfully")
+        if (Object.keys(validationErrors). length === 0){
+            alert("Form Submitted Successfully")
         }
       }
 
@@ -53,15 +53,25 @@ import './Newuser.css'
 
      <div className='form-control1'>
       <label htmlFor='Email'>Email Address</label>
-      <input type="email" id="email" placeholder='Your email address here' onChange={handleChange} />
+      <input type="text"
+      name='email'
+       id="email"
+       placeholder='Your email address here'
+       value={formdata.email}
+       onChange={handleChange} />
       {errors.email && <span>{errors.email}</span>}
       </div>
 
 
       <div className='form-control2'>
       <label htmlFor='Password'>Password</label>
-      <input type="password" id="password" placeholder='*****' onChange={handleChange}  />
-      <p className='fgt'>Forgot password?</p>
+      <input type="password"
+       id="password"
+       name='password'
+       placeholder=''
+       value={formdata.password}
+       onChange={handleChange}  />
+      <a href="Resetpassword">Forgot password?</a>
       {errors.password && <span>{errors.password}</span>}
       </div>
 
