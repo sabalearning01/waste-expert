@@ -34,17 +34,17 @@ const Resetpassword = () => {
   return (
     <div className='newpassword'>
     <form>
-       <div className='form-controll'>
+       <div className='form-controll1'>
    <h1 className='reset'>Reset Password?</h1>
    <p className='you'>You are  about to get a new password</p>
    </div> 
 
-   <div className='form-control'>
+   <div className='form-controll'>
    <label>NewPassword</label>
    <input type="password" id="password" placeholder='*********' />
    </div>
 
-   <div className='form-control'>
+   <div className='form-controll'>
    <label>New Confirm Password</label>
    <input type="password" id="password"   placeholder='*********' />
    </div>

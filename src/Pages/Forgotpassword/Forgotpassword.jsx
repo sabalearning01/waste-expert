@@ -1,11 +1,13 @@
 import React from 'react'
 import './Forgotpassword.css'
+import { useState } from 'react'
 
 const Forgotpassword = () => {
  
 
   const [formdetail, setFormdetail] = useState({
     email:'',
+  
   })
 
 
@@ -34,7 +36,7 @@ const Forgotpassword = () => {
 
    
   return (
-    <div>
+    <div className='forgot'>
       <h1>Forgot Password?</h1>
       <p>Don’t worry, it happens sometimes. <br/>
       Let’s get you another one</p>
@@ -42,6 +44,8 @@ const Forgotpassword = () => {
       <form onSubmit>
         <label>Email Address</label>
         <input type="email" placeholder='Your email address here' />
+
+        <button className='sub-btn'>Submit</button>
       </form>
 
     </div>
