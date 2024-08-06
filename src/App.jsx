@@ -15,6 +15,9 @@ import Hamburger from './Images/Hamburger.png'
 import Newuser from './Pages/Newuser/Newuser'
 import Resetpassword from './Pages/Resetpassword/Resetpassword'
 import Forgotpassword from './Pages/Forgotpassword/Forgotpassword'
+import { Dashboard } from '@mui/icons-material'
+import Dash from './Pages/Dash/Dash'
+import Dashcomp from './Components/Dashcomp/Dashcomp'
 
 
 
@@ -40,7 +43,8 @@ function App() {
               {/* <Navbar2/>  */}
             {/* <Navbar/> */}
               {/* <Seemorebtn/>   */}
-       
+              <Dashcomp/>
+{/*        
             <Routes>
             <Route index element={<Home/>}/>
             <Route path="about" element={<About/>}/>
@@ -52,7 +56,8 @@ function App() {
             <Route path = "newuser" element={<Newuser/>}/>
             <Route path="resetpassword" element={<Resetpassword/>}/>
             <Route path="forgotpassword" element={<Forgotpassword/>}/>
-          </Routes>   
+            <Route path='dash' element={<Dash/>}/>
+          </Routes>    */}
         {/* </main> */}
         </BrowserRouter>
   )
