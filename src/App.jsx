@@ -18,6 +18,10 @@ import Forgotpassword from './Pages/Forgotpassword/Forgotpassword'
 import { Dashboard } from '@mui/icons-material'
 import Dash from './Pages/Dash/Dash'
 import Dashcomp from './Components/Dashcomp/Dashcomp'
+import Successpage from './Pages/Successpage/Successpage'
+
+
+
 
 
 
@@ -43,8 +47,9 @@ function App() {
               {/* <Navbar2/>  */}
             {/* <Navbar/> */}
               {/* <Seemorebtn/>   */}
-              <Dashcomp/>
-{/*        
+              {/* <Dashcomp/> */}
+              {/* <Slider/> */}
+{       
             <Routes>
             <Route index element={<Home/>}/>
             <Route path="about" element={<About/>}/>
@@ -57,7 +62,8 @@ function App() {
             <Route path="resetpassword" element={<Resetpassword/>}/>
             <Route path="forgotpassword" element={<Forgotpassword/>}/>
             <Route path='dash' element={<Dash/>}/>
-          </Routes>    */}
+            <Route path="successpage" element={<Successpage/>}/>
+          </Routes>    }
         {/* </main> */}
         </BrowserRouter>
   )

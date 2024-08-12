@@ -1,4 +1,4 @@
-.header{
+/* .header{
     width:100%;
     height: 70px;
     box-shadow: 0px 5px 7px 0px #0000001C;
@@ -50,7 +50,8 @@ input[type="text"]{
     border-radius: 4px;
     border: 1px solid #028C32;
     margin-top: 17px;
-    /* margin-right: 20px; */
+   
+
     
 }
 
@@ -60,7 +61,13 @@ input[type="text"]{
     font-weight: 400;
     line-height: 11px;
     text-align: left;
+    
 
+}
+
+::placeholder{
+     color: #00000073;
+    opacity: 45%;
 }
 
 .search{
@@ -80,3 +87,100 @@ input[type="text"]{
     cursor: pointer;
 }
 
+.main{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main h1{
+    font-family: Mulish;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 34.1px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 75px;
+
+}
+
+
+.main p{
+
+    font-family: Mulish;
+    font-size: 7px;
+    font-weight: 400;
+    line-height: 10.85px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-left: 100px;
+}
+ 
+.flexing{
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:10px;
+ }  
+
+
+ .blk{
+    margin-right: 10px;
+    margin-top: 20px;
+ }
+
+
+ .kunle{
+    margin-top: 17px;
+ }
+
+
+.kunle h1{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+
+
+}
+.rightcont{
+    margin-top: 75px;
+}
+
+
+.kunle p{
+    font-family: Mulish;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11px;
+    text-align: left;
+    color: #00000075;
+    opacity:46%;
+    margin-left: 2px;
+    
+
+
+}
+
+
+.let{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.44px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 83px;
+
+}
+
+
+/* .gang{
+    /* max-width: 100%; 
+    /* width: 254px; 
+    height: 300px;
+    object-fit: contain;
+} */ */
